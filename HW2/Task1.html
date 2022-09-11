@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body>
+<table id="table">
+    <tr>
+        <img src="./images/book2.jpg" alt="books" width="100%" height="250px">
+    </tr>
+    <tr>
+        <td id="left_column">
+            <ol class="title_1">Разделы библиотеки:</ol>
+            <ol type="1">
+                <li>Фантастика</li>
+                <ul type="circle">
+                    <li>Научная</li>
+                    <li>Фэнтези</li>
+                </ul>
+                <li>Детская книга</li>
+                <ul>
+                    <li>Для дошкольников</li>
+                    <li>Для школьников младших классов</li>
+                </ul>
+            </ol>
+        </td>
+        <td id="right_column">
+            <ol class="title_1">Авторы:</ol>
+            <ol type="1">
+                <li>Зарубежные</li>
+                <ul type="square">
+                    <li>Роберт Шэкли</li>
+                    <li>Эндрю Нортон</li>
+                </ul>
+                <li>Отечественные</li>
+                <ul type="square">
+                    <li>Тарас Шевченко</li>
+                    <li>Иван Франко</li>
+                </ul>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <table id="table2">
+            <caption> <h2>Зарегистрироваться в библиотеке</h2> </caption>
+            <tr>
+                <td align="center" class="col">Имя и фамили читателя:</td>
+                <td class="col"><input align="right" class="input" type="text" placeholder="Укажите свои имя и фамилию" > </td>
+            </tr>
+            <tr>
+                <td align="center" class="col">Дата рождения:</td>
+                <td class="col"> <input class="input" type="date" placeholder="дм.мм.гггг"></td>
+            </tr>
+            <tr>
+                <td align="center" class="col">Тип читательского билета:</td>
+                <td class="col">
+                    <ol>
+                        <li class="li_st"> <input type="radio" value="1">Годовой</li>
+                        <li class="li_st"><input type="radio" value="1">Постоянный</li>
+                        <li class="li_st" ><input type="radio" value="1">Разовый</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" class="col">Ваш e-mail:</td>
+                <td class="col"> <input class="input" type="text"></td>
+            </tr>
+            <tr>
+                <td align="center" class="col">Ваш адрес:</td>
+                <td class="col"><input align="right" class="input" type="text" placeholder="Укажите домашний адрес"></td>
+            </tr>
+            <tr>
+                <td align="center" class="col">Город</td>
+                <td > <select class="input" >
+                    <option>Москва</option>
+                    <option>Санкт-Петербург</option>
+                    <option>Тула</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td style="width: 33%"></td>
+                <td style="width: 33%" ><input align="center" id="button" type="submit" value="Зарегистрироваться"></td>
+                <td style="width: 33%"></td>
+            </tr>
+        </table>
+    </tr>
+</table>
+</body>
+</html>
